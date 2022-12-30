@@ -76,7 +76,7 @@ flutter:
   fonts:
     - family: Inter
       fonts:
-        - asset: assets/fonts/Inter/static/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/static/Inter-Regular.ttf
 
   #   - family: Trajan Pro
   #     fonts:

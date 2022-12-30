@@ -12,7 +12,7 @@ class SplashScreen extends StatelessWidget {
       ),
       child: Scaffold(
         body: Center(
-          child: Text('Herova',style: _textTheme.displayMedium,),
+          child: Text('RAHOVE',style: _textTheme.displayMedium,),
         ),
       ),
     );

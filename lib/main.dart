@@ -18,10 +18,20 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: kPrimaryColor,
-        textTheme: const TextTheme(
+        textTheme:  TextTheme(
           displayMedium: TextStyle(
-            color:Colors.red,
-            fontFamily:'Inter'
+
+            fontFamily:'Inter',
+            fontStyle: FontStyle.normal,
+            fontWeight: FontWeight.w700,
+            fontSize: 44.5817,
+            foreground: Paint()..shader = const LinearGradient(
+              colors: <Color>[
+            // background-image: linear-gradient(#9747FF, #3B136F);
+                //add more color here.
+              ],
+            ) as Shader?
+
           )
         )
       ),
